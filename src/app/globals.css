@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -43,10 +45,6 @@ body {
 html, body {
   overscroll-behavior-y: none;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
